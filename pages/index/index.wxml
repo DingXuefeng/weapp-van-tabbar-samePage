@@ -1,0 +1,14 @@
+<!--pages/index/index.wxml-->
+<view hidden="{{active!=0}}">现在在tab1</view>
+<view hidden="{{active!=1}}">现在在tab2</view>
+<view hidden="{{active!=2}}">现在在tab3</view>
+  <van-tabbar
+    active="{{ active }}"
+    data-key="active"
+    safe-area-inset-bottom="{{ true }}"
+    bind:change="changeTab"
+  >
+    <van-tabbar-item icon="home-o">标签1</van-tabbar-item>
+    <van-tabbar-item icon="search">标签2</van-tabbar-item>
+    <van-tabbar-item icon="friends-o">标签3</van-tabbar-item>
+  </van-tabbar>

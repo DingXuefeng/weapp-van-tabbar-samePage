@@ -1,0 +1,19 @@
+{
+  "name": "weapp-van-tabbar-samepage",
+  "version": "1.0.0",
+  "description": "vant tabbar in same page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "git+https://github.com/DingXuefeng/weapp-van-tabbar-samePage.git",
+  "author": "Xuefeng, Ding <xuefeng.ding.physics@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DingXuefeng/weapp-van-tabbar-samePage/issues"
+  },
+  "homepage": "https://github.com/DingXuefeng/weapp-van-tabbar-samePage#readme",
+  "dependencies": {
+    "@vant/weapp": "^1.6.6"
+  }
+}
